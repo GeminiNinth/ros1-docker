@@ -12,4 +12,4 @@ DEV_WS=${HOME}/dev_ws # terminatorの設定ファイル置き場
 HOST_WORKSPACE=${HOME}/ros_ws/${CONTAINER_NAME}
 
 # コンテナ側設定
-CONTAINER_WORKSPACE=/root/colcon_ws
+CONTAINER_WORKSPACE=/root/catkin_ws

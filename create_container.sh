@@ -10,6 +10,7 @@ xhost +local:docker
 docker run -itd \
   --name ${CONTAINER_NAME} \
   --network host \
+  --ipc host \
   --privileged \
   --gpus all \
   -e DISPLAY=${DISPLAY} \
